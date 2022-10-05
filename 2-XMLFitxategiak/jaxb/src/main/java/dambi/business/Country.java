@@ -3,6 +3,7 @@ package dambi.business;
 import java.time.LocalDate;
 
 import dambi.adapter.DateAdapter;
+import jakarta.xml.bind.annotation.XmlAttribute;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
@@ -28,6 +29,8 @@ public class Country
     String    continent;
 
     int       population;
+
+    int         importance;
 
     public int getPopulation()
     {
@@ -99,10 +102,18 @@ public class Country
     {
         return continent;
     }
+    public int getImportance(){
+        return importance;
+    }
 
     @XmlElement( name = "Country_Continent" )
     public void setContinent( String continent )
     {
         this.continent = continent;
+    }
+    @XmlAttribute( name = "importance", required = true )
+    public void setImportance( int importance )
+    {
+        this.importance = importance;
     }
 }
