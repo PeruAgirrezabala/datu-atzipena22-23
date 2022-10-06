@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Mendiak>
+    <Country>
+        <Mendia_izena>Anboto</Mendia_izena>
+        <Mendia_altuera>1331</Mendia_altuera>
+        <Mendia_probintzia>Bizkaia</Mendia_probintzia>
+    </Country>
+    <Country>
+        <Mendia_izena>Alluitz</Mendia_izena>
+        <Mendia_altuera>1034</Mendia_altuera>
+        <Mendia_probintzia>Bizkaia</Mendia_probintzia>
+    </Country>
+    <Country>
+        <Mendia_izena>Albertia</Mendia_izena>
+        <Mendia_altuera>868</Mendia_altuera>
+        <Mendia_probintzia>Araba</Mendia_probintzia>
+    </Country>
+</Mendiak>

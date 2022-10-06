@@ -1,10 +1,10 @@
-package dambi.business;
+(    package dambi.business;
 
-import java.util.ArrayList;
-import java.util.List;
+    import java.util.ArrayList;
+    import java.util.List;
 
-import jakarta.xml.bind.annotation.XmlElement;
-import jakarta.xml.bind.annotation.XmlRootElement;
+    import jakarta.xml.bind.annotation.XmlElement;
+    import jakarta.xml.bind.annotation.XmlRootElement;
 
 /**
  * JaxB is not capable of marshal lists directly as root elements, so we need a container for the
